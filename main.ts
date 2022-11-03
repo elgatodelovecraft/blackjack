@@ -22,7 +22,6 @@ function win_1 () {
     basic.showNumber(Jugador_1)
     basic.showString("Congratulations Jugador 1")
     music.playMelody("C D E F G A B C5 ", 120)
-    game.gameOver()
     control.reset()
 }
 input.onButtonPressed(Button.B, function () {
@@ -36,7 +35,6 @@ function win_2 () {
     basic.showNumber(Jugador_2)
     basic.showString("Congratulations Jugador 2")
     music.playMelody("C D E F G A B C5 ", 120)
-    game.gameOver()
     control.reset()
 }
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
