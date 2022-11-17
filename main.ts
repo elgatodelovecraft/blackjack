@@ -52,5 +52,11 @@ function lose_1 () {
 }
 let Jugador_2 = 0
 let Jugador_1 = 0
+for (let index = 0; index < 2; index++) {
+    basic.showIcon(IconNames.Yes)
+    basic.pause(100)
+    basic.showIcon(IconNames.No)
+    basic.pause(100)
+}
 Jugador_1 = randint(2, 11)
 Jugador_2 = randint(2, 11)
